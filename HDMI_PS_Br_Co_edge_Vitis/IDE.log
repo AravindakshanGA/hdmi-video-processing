@@ -1,0 +1,494 @@
+23:04:53 DEBUG : Logs will be stored at 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/IDE.log'.
+23:04:57 INFO  : Registering command handlers for Vitis TCF services
+23:04:57 INFO  : Launching XSCT server: xsct.bat -n  -interactive F:\Analog_Digital_Hackathons_2025\PS_Solutions\HDMI_PS_Br_Co_edge_Vitis\temp_xsdb_launch_script.tcl
+23:04:58 INFO  : Platform repository initialization has completed.
+23:05:00 INFO  : XSCT server has started successfully.
+23:05:02 INFO  : plnx-install-location is set to ''
+23:05:03 INFO  : Successfully done setting XSCT server connection channel  
+23:05:03 INFO  : Successfully done query RDI_DATADIR 
+23:05:03 INFO  : Successfully done setting workspace for the tool. 
+23:06:16 INFO  : Result from executing command 'getProjects': Bri_Con_Edge
+23:06:16 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vck190_base_202320_1/xilinx_vck190_base_202320_1.xpfm;xilinx_vck190_base_dfx_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vck190_base_dfx_202320_1/xilinx_vck190_base_dfx_202320_1.xpfm;xilinx_vek280_es1_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vek280_es1_base_202320_1/xilinx_vek280_es1_base_202320_1.xpfm;xilinx_vmk180_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vmk180_base_202320_1/xilinx_vmk180_base_202320_1.xpfm;xilinx_zcu102_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+23:06:43 INFO  : Result from executing command 'getProjects': Bri_Con_Edge
+23:06:43 INFO  : Result from executing command 'getPlatforms': Bri_Con_Edge|F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge/export/Bri_Con_Edge/Bri_Con_Edge.xpfm;xilinx_vck190_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vck190_base_202320_1/xilinx_vck190_base_202320_1.xpfm;xilinx_vck190_base_dfx_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vck190_base_dfx_202320_1/xilinx_vck190_base_dfx_202320_1.xpfm;xilinx_vek280_es1_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vek280_es1_base_202320_1/xilinx_vek280_es1_base_202320_1.xpfm;xilinx_vmk180_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vmk180_base_202320_1/xilinx_vmk180_base_202320_1.xpfm;xilinx_zcu102_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+23:08:19 INFO  : Checking for BSP changes to sync application flags for project 'Bri_Con_Edge_App'...
+23:18:36 INFO  : Checking for BSP changes to sync application flags for project 'Bri_Con_Edge_App'...
+23:21:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:21:32 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
+23:21:32 INFO  : 'jtag frequency' command is executed.
+23:21:32 INFO  : Context for 'APU' is selected.
+23:21:32 INFO  : System reset is completed.
+23:21:35 INFO  : 'after 3000' command is executed.
+23:21:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+23:21:38 INFO  : Device configured successfully with "F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/bitstream/design_1_wrapper.bit"
+23:21:38 INFO  : Context for 'APU' is selected.
+23:21:38 INFO  : Hardware design and registers information is loaded from 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge/export/Bri_Con_Edge/hw/design_1_wrapper.xsa'.
+23:21:38 INFO  : 'configparams force-mem-access 1' command is executed.
+23:21:38 INFO  : Context for 'APU' is selected.
+23:21:38 INFO  : Sourcing of 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/psinit/ps7_init.tcl' is done.
+23:21:38 INFO  : 'ps7_init' command is executed.
+23:21:38 INFO  : 'ps7_post_config' command is executed.
+23:21:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:21:38 INFO  : The application 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/Debug/Bri_Con_Edge_App.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:21:39 INFO  : 'configparams force-mem-access 0' command is executed.
+23:21:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}
+fpga -file F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge/export/Bri_Con_Edge/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/Debug/Bri_Con_Edge_App.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:21:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:21:39 INFO  : 'con' command is executed.
+23:21:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:21:39 INFO  : Launch script is exported to file 'F:\Analog_Digital_Hackathons_2025\PS_Solutions\HDMI_PS_Br_Co_edge_Vitis\Bri_Con_Edge_App_system\_ide\scripts\debugger_bri_con_edge_app-default.tcl'
+23:26:31 INFO  : Checking for BSP changes to sync application flags for project 'Bri_Con_Edge_App'...
+23:27:04 INFO  : Checking for BSP changes to sync application flags for project 'Bri_Con_Edge_App'...
+23:27:14 INFO  : Disconnected from the channel tcfchan#2.
+23:27:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:27:15 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
+23:27:15 ERROR : port closed
+23:27:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+23:27:15 ERROR : port closed
+23:27:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:27:30 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
+23:27:30 INFO  : 'jtag frequency' command is executed.
+23:27:30 INFO  : Context for 'APU' is selected.
+23:27:30 INFO  : System reset is completed.
+23:27:33 INFO  : 'after 3000' command is executed.
+23:27:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+23:27:36 INFO  : Device configured successfully with "F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/bitstream/design_1_wrapper.bit"
+23:27:36 INFO  : Context for 'APU' is selected.
+23:27:36 INFO  : Hardware design and registers information is loaded from 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge/export/Bri_Con_Edge/hw/design_1_wrapper.xsa'.
+23:27:36 INFO  : 'configparams force-mem-access 1' command is executed.
+23:27:36 INFO  : Context for 'APU' is selected.
+23:27:36 INFO  : Sourcing of 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/psinit/ps7_init.tcl' is done.
+23:27:36 INFO  : 'ps7_init' command is executed.
+23:27:36 INFO  : 'ps7_post_config' command is executed.
+23:27:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:27:36 INFO  : The application 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/Debug/Bri_Con_Edge_App.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:27:36 INFO  : 'configparams force-mem-access 0' command is executed.
+23:27:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}
+fpga -file F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge/export/Bri_Con_Edge/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/Debug/Bri_Con_Edge_App.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:27:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:27:36 INFO  : 'con' command is executed.
+23:27:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:27:36 INFO  : Launch script is exported to file 'F:\Analog_Digital_Hackathons_2025\PS_Solutions\HDMI_PS_Br_Co_edge_Vitis\Bri_Con_Edge_App_system\_ide\scripts\debugger_bri_con_edge_app-default.tcl'
+23:37:04 INFO  : Checking for BSP changes to sync application flags for project 'Bri_Con_Edge_App'...
+23:37:35 INFO  : Disconnected from the channel tcfchan#3.
+23:37:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:37:36 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
+23:37:36 INFO  : 'jtag frequency' command is executed.
+23:37:37 INFO  : Context for 'APU' is selected.
+23:37:37 INFO  : System reset is completed.
+23:37:40 INFO  : 'after 3000' command is executed.
+23:37:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+23:37:42 INFO  : Device configured successfully with "F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/bitstream/design_1_wrapper.bit"
+23:37:42 INFO  : Context for 'APU' is selected.
+23:37:42 INFO  : Hardware design and registers information is loaded from 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge/export/Bri_Con_Edge/hw/design_1_wrapper.xsa'.
+23:37:42 INFO  : 'configparams force-mem-access 1' command is executed.
+23:37:42 INFO  : Context for 'APU' is selected.
+23:37:42 INFO  : Sourcing of 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/psinit/ps7_init.tcl' is done.
+23:37:42 INFO  : 'ps7_init' command is executed.
+23:37:42 INFO  : 'ps7_post_config' command is executed.
+23:37:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:37:43 INFO  : The application 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/Debug/Bri_Con_Edge_App.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:37:43 INFO  : 'configparams force-mem-access 0' command is executed.
+23:37:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}
+fpga -file F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge/export/Bri_Con_Edge/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/Debug/Bri_Con_Edge_App.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:37:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:37:43 INFO  : 'con' command is executed.
+23:37:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:37:43 INFO  : Launch script is exported to file 'F:\Analog_Digital_Hackathons_2025\PS_Solutions\HDMI_PS_Br_Co_edge_Vitis\Bri_Con_Edge_App_system\_ide\scripts\debugger_bri_con_edge_app-default.tcl'
+23:42:08 INFO  : Disconnected from the channel tcfchan#4.
+02:10:39 DEBUG : Logs will be stored at 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/IDE.log'.
+02:10:40 INFO  : Launching XSCT server: xsct.bat -n  -interactive F:\Analog_Digital_Hackathons_2025\PS_Solutions\HDMI_PS_Br_Co_edge_Vitis\temp_xsdb_launch_script.tcl
+02:10:42 INFO  : XSCT server has started successfully.
+02:10:42 INFO  : Successfully done setting XSCT server connection channel  
+02:10:42 INFO  : plnx-install-location is set to ''
+02:10:42 INFO  : Successfully done setting workspace for the tool. 
+02:10:43 INFO  : Registering command handlers for Vitis TCF services
+02:10:43 INFO  : Successfully done query RDI_DATADIR 
+02:10:44 INFO  : Platform repository initialization has completed.
+02:28:10 INFO  : Checking for BSP changes to sync application flags for project 'Bri_Con_Edge_App'...
+02:29:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:29:07 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
+02:29:07 INFO  : 'jtag frequency' command is executed.
+02:29:07 INFO  : Context for 'APU' is selected.
+02:29:07 INFO  : System reset is completed.
+02:29:10 INFO  : 'after 3000' command is executed.
+02:29:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+02:29:13 INFO  : Device configured successfully with "F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/bitstream/design_1_wrapper.bit"
+02:29:13 INFO  : Context for 'APU' is selected.
+02:29:13 INFO  : Hardware design and registers information is loaded from 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge/export/Bri_Con_Edge/hw/design_1_wrapper.xsa'.
+02:29:13 INFO  : 'configparams force-mem-access 1' command is executed.
+02:29:13 INFO  : Context for 'APU' is selected.
+02:29:13 INFO  : Sourcing of 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/psinit/ps7_init.tcl' is done.
+02:29:13 INFO  : 'ps7_init' command is executed.
+02:29:13 INFO  : 'ps7_post_config' command is executed.
+02:29:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:29:14 INFO  : The application 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/Debug/Bri_Con_Edge_App.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:29:14 INFO  : 'configparams force-mem-access 0' command is executed.
+02:29:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}
+fpga -file F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge/export/Bri_Con_Edge/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/Debug/Bri_Con_Edge_App.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+02:29:14 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:29:14 INFO  : 'con' command is executed.
+02:29:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+02:29:14 INFO  : Launch script is exported to file 'F:\Analog_Digital_Hackathons_2025\PS_Solutions\HDMI_PS_Br_Co_edge_Vitis\Bri_Con_Edge_App_system\_ide\scripts\debugger_bri_con_edge_app-default.tcl'
+02:41:36 INFO  : Disconnected from the channel tcfchan#1.
+02:41:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:41:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+02:41:55 ERROR : Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+02:42:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:42:09 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
+02:42:09 INFO  : 'jtag frequency' command is executed.
+02:42:09 INFO  : Context for 'APU' is selected.
+02:42:09 INFO  : System reset is completed.
+02:42:12 INFO  : 'after 3000' command is executed.
+02:42:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+02:42:14 INFO  : Device configured successfully with "F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/bitstream/design_1_wrapper.bit"
+02:42:14 INFO  : Context for 'APU' is selected.
+02:42:17 INFO  : Hardware design and registers information is loaded from 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge/export/Bri_Con_Edge/hw/design_1_wrapper.xsa'.
+02:42:17 INFO  : 'configparams force-mem-access 1' command is executed.
+02:42:17 INFO  : Context for 'APU' is selected.
+02:42:17 INFO  : Sourcing of 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/psinit/ps7_init.tcl' is done.
+02:42:17 INFO  : 'ps7_init' command is executed.
+02:42:17 INFO  : 'ps7_post_config' command is executed.
+02:42:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:42:17 INFO  : The application 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/Debug/Bri_Con_Edge_App.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:42:17 INFO  : 'configparams force-mem-access 0' command is executed.
+02:42:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}
+fpga -file F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge/export/Bri_Con_Edge/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/Debug/Bri_Con_Edge_App.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+02:42:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:42:17 INFO  : 'con' command is executed.
+02:42:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+02:42:17 INFO  : Launch script is exported to file 'F:\Analog_Digital_Hackathons_2025\PS_Solutions\HDMI_PS_Br_Co_edge_Vitis\Bri_Con_Edge_App_system\_ide\scripts\debugger_bri_con_edge_app-default.tcl'
+02:42:32 INFO  : Disconnected from the channel tcfchan#2.
+02:42:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:42:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+02:42:42 ERROR : Could not find Jtag device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+02:43:33 DEBUG : Logs will be stored at 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/IDE.log'.
+02:43:34 INFO  : Launching XSCT server: xsct.bat -n  -interactive F:\Analog_Digital_Hackathons_2025\PS_Solutions\HDMI_PS_Br_Co_edge_Vitis\temp_xsdb_launch_script.tcl
+02:43:36 INFO  : XSCT server has started successfully.
+02:43:36 INFO  : Successfully done setting XSCT server connection channel  
+02:43:36 INFO  : plnx-install-location is set to ''
+02:43:36 INFO  : Successfully done setting workspace for the tool. 
+02:43:38 INFO  : Platform repository initialization has completed.
+02:43:38 INFO  : Registering command handlers for Vitis TCF services
+02:43:38 INFO  : Successfully done query RDI_DATADIR 
+02:43:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:43:59 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
+02:43:59 INFO  : 'jtag frequency' command is executed.
+02:43:59 INFO  : Context for 'APU' is selected.
+02:43:59 INFO  : System reset is completed.
+02:44:02 INFO  : 'after 3000' command is executed.
+02:44:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+02:44:05 INFO  : Device configured successfully with "F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/bitstream/design_1_wrapper.bit"
+02:44:05 INFO  : Context for 'APU' is selected.
+02:44:05 INFO  : Hardware design and registers information is loaded from 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge/export/Bri_Con_Edge/hw/design_1_wrapper.xsa'.
+02:44:05 INFO  : 'configparams force-mem-access 1' command is executed.
+02:44:05 INFO  : Context for 'APU' is selected.
+02:44:05 INFO  : Sourcing of 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/psinit/ps7_init.tcl' is done.
+02:44:05 INFO  : 'ps7_init' command is executed.
+02:44:05 INFO  : 'ps7_post_config' command is executed.
+02:44:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:44:05 INFO  : The application 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/Debug/Bri_Con_Edge_App.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:44:05 INFO  : 'configparams force-mem-access 0' command is executed.
+02:44:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}
+fpga -file F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge/export/Bri_Con_Edge/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/Debug/Bri_Con_Edge_App.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+02:44:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:44:05 INFO  : 'con' command is executed.
+02:44:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+02:44:05 INFO  : Launch script is exported to file 'F:\Analog_Digital_Hackathons_2025\PS_Solutions\HDMI_PS_Br_Co_edge_Vitis\Bri_Con_Edge_App_system\_ide\scripts\debugger_bri_con_edge_app-default.tcl'
+02:49:27 INFO  : Checking for BSP changes to sync application flags for project 'Bri_Con_Edge_App'...
+02:49:58 INFO  : Disconnected from the channel tcfchan#1.
+02:49:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:50:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+02:50:08 ERROR : Could not find Jtag device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+02:50:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:50:22 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
+02:50:22 INFO  : 'jtag frequency' command is executed.
+02:50:22 INFO  : Context for 'APU' is selected.
+02:50:22 INFO  : System reset is completed.
+02:50:25 INFO  : 'after 3000' command is executed.
+02:50:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+02:50:28 INFO  : Device configured successfully with "F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/bitstream/design_1_wrapper.bit"
+02:50:28 INFO  : Context for 'APU' is selected.
+02:50:30 INFO  : Hardware design and registers information is loaded from 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge/export/Bri_Con_Edge/hw/design_1_wrapper.xsa'.
+02:50:30 INFO  : 'configparams force-mem-access 1' command is executed.
+02:50:30 INFO  : Context for 'APU' is selected.
+02:50:30 INFO  : Sourcing of 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/psinit/ps7_init.tcl' is done.
+02:50:30 INFO  : 'ps7_init' command is executed.
+02:50:30 INFO  : 'ps7_post_config' command is executed.
+02:50:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:50:30 INFO  : The application 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/Debug/Bri_Con_Edge_App.elf' is downloaded to processor 'ps7_cortexa9_0'.
+02:50:30 INFO  : 'configparams force-mem-access 0' command is executed.
+02:50:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}
+fpga -file F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge/export/Bri_Con_Edge/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/Debug/Bri_Con_Edge_App.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+02:50:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+02:50:30 INFO  : 'con' command is executed.
+02:50:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+02:50:30 INFO  : Launch script is exported to file 'F:\Analog_Digital_Hackathons_2025\PS_Solutions\HDMI_PS_Br_Co_edge_Vitis\Bri_Con_Edge_App_system\_ide\scripts\systemdebugger_bri_con_edge_app_system_standalone.tcl'
+03:29:34 INFO  : Disconnected from the channel tcfchan#2.
+04:29:06 DEBUG : Logs will be stored at 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/IDE.log'.
+04:29:06 INFO  : Launching XSCT server: xsct.bat -n  -interactive F:\Analog_Digital_Hackathons_2025\PS_Solutions\HDMI_PS_Br_Co_edge_Vitis\temp_xsdb_launch_script.tcl
+04:29:09 INFO  : XSCT server has started successfully.
+04:29:09 INFO  : Successfully done setting XSCT server connection channel  
+04:29:09 INFO  : plnx-install-location is set to ''
+04:29:09 INFO  : Successfully done setting workspace for the tool. 
+04:29:10 INFO  : Successfully done query RDI_DATADIR 
+04:29:10 INFO  : Registering command handlers for Vitis TCF services
+04:29:11 INFO  : Platform repository initialization has completed.
+04:30:19 ERROR : (XRT Server)C:/Xilinx/Vitis/2023.2/bin/unwrapped/win64.o/xrt_server.exe: error: illegal option '-'
+Usage: agent [OPTION]...
+Start Target Communication Framework agent.
+  -d               run in daemon mode (output is sent to system logger)
+  -i               run in interactive mode
+  -L<file>         enable logging, use -L- to send log to stderr
+  -l<level>        set log level, the level is comma separated list of:
+      alloc        memory allocation and deallocation (0x1)
+      eventcore    main event queue (0x2)
+      waitpid      waitpid() events (0x4)
+      events       low-level debugger events (0x8)
+      protocol     communication protocol (0x20)
+      context      debug context actions (0x40)
+      children     debug context children (0x10)
+      discovery    discovery (0x80)
+      asyncreq     async I/O (0x100)
+      proxy        proxy state (0x200)
+      tcflog       proxy traffic (0x400)
+      elf          ELF reader (0x800)
+      stack        stack trace service (0x2000)
+      plugin       plugins (0x4000)
+      shutdown     shutdown of subsystems (0x8000)
+      disasm       disassembly service (0x10000)
+  -s<url>          set agent listening port and protocol, default is tcp::0
+  -S               print server properties in Json format to stdout
+  -g<port>         start GDB Remote Serial Protocol server at the specified TCP port
+  -I<idle-seconds> exit if there are no connections for the specified time
+
+04:31:19 ERROR : Timed out. 60 seconds have elapsed while waiting for the XRT server to launch.
+04:31:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+04:31:22 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
+04:31:22 INFO  : 'jtag frequency' command is executed.
+04:31:22 INFO  : Context for 'APU' is selected.
+04:31:22 INFO  : System reset is completed.
+04:31:25 INFO  : 'after 3000' command is executed.
+04:31:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+04:31:28 INFO  : Device configured successfully with "F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/bitstream/design_1_wrapper.bit"
+04:31:28 INFO  : Context for 'APU' is selected.
+04:31:28 INFO  : Hardware design and registers information is loaded from 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge/export/Bri_Con_Edge/hw/design_1_wrapper.xsa'.
+04:31:28 INFO  : 'configparams force-mem-access 1' command is executed.
+04:31:28 INFO  : Context for 'APU' is selected.
+04:31:28 INFO  : Sourcing of 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/psinit/ps7_init.tcl' is done.
+04:31:28 INFO  : 'ps7_init' command is executed.
+04:31:28 INFO  : 'ps7_post_config' command is executed.
+04:31:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+04:31:29 INFO  : The application 'F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/Debug/Bri_Con_Edge_App.elf' is downloaded to processor 'ps7_cortexa9_0'.
+04:31:29 INFO  : 'configparams force-mem-access 0' command is executed.
+04:31:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}
+fpga -file F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge/export/Bri_Con_Edge/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow F:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge_App/Debug/Bri_Con_Edge_App.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+04:31:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+04:31:29 INFO  : 'con' command is executed.
+04:31:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+04:31:29 INFO  : Launch script is exported to file 'F:\Analog_Digital_Hackathons_2025\PS_Solutions\HDMI_PS_Br_Co_edge_Vitis\Bri_Con_Edge_App_system\_ide\scripts\systemdebugger_bri_con_edge_app_system_standalone.tcl'
+04:37:00 INFO  : Disconnected from the channel tcfchan#1.
+02:35:30 DEBUG : Logs will be stored at 'D:/C2S/Final_Solutions_FINAL/Final_Solutions/HDMI_PS_Br_Co_edge_Vitis/IDE.log'.
+02:36:21 DEBUG : Logs will be stored at 'D:/C2S/Final_Solutions_FINAL/Final_Solutions/HDMI_PS_Br_Co_edge_Vitis/IDE.log'.

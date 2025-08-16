@@ -1,0 +1,24 @@
+Nothing to build in platform 'Bri_Con_Edge'
+
+02:49:27 **** Incremental Build of configuration Debug for project Bri_Con_Edge_App ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/app_edge_bright_Con.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app_edge_bright_Con.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IF:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge/export/Bri_Con_Edge/sw/Bri_Con_Edge/standalone_domain/bspinclude/include -MMD -MP -MF"src/app_edge_bright_Con.d" -MT"src/app_edge_bright_Con.o" -o "src/app_edge_bright_Con.o" "../src/app_edge_bright_Con.c"
+'Finished building: ../src/app_edge_bright_Con.c'
+' '
+'Building target: Bri_Con_Edge_App.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LF:/Analog_Digital_Hackathons_2025/PS_Solutions/HDMI_PS_Br_Co_edge_Vitis/Bri_Con_Edge/export/Bri_Con_Edge/sw/Bri_Con_Edge/standalone_domain/bsplib/lib -o "Bri_Con_Edge_App.elf"  ./src/app_edge_bright_Con.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Bri_Con_Edge_App.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Bri_Con_Edge_App.elf  |tee "Bri_Con_Edge_App.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19716	   1144	  22568	  43428	   a9a4	Bri_Con_Edge_App.elf
+'Finished building: Bri_Con_Edge_App.elf.size'
+' '

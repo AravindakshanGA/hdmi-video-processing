@@ -1,0 +1,110 @@
+// ****************** Brightness Application ******************* //
+#include <stdio.h>
+#include "platform.h"
+#include "xil_printf.h"
+#include "xparameters.h"
+#include "xil_types.h"
+#include "xil_io.h"
+#include "sleep.h"
+
+
+int main(void)
+{
+    init_platform();
+    u32 data_in;
+    u32 data_out;
+    int counter_brightness = 64;
+    int counter_contrast = 64;
+    int counter_edge = 10000;
+    int SW_0=0;// switch 0
+    int SW_1=0; // switch 1
+    int BT_0=0; // button 0
+    int BT_1=0; // button 1
+    int BT_2=0; // button 2
+    int BT_3=0; // button 3
+    //print("Hello World\n\r");
+    //print("Successfully ran Hello World application");
+    while(1)
+    {
+    	data_in = Xil_In32(XPAR_MY_CONTROLLER_AXIL_IP_0_S_AXI_BASEADDR); // reading
+    	SW_0 = data_in & 0x00000001;
+    	SW_1 = (data_in & 0x00000002) >> 1;
+    	BT_0 = (data_in & 0x00000004) >> 2;
+    	BT_1 = (data_in & 0x00000008) >> 3;
+    	BT_2 = (data_in & 0x00000010) >> 4;
+    	BT_3 = (data_in & 0x00000020) >> 5;
+    	if((SW_0==1)&&(SW_1==0))
+    	{
+        	if(BT_0 == 1)
+        	{
+        		counter_brightness++;
+        	}
+        	else if(BT_1 == 1)
+        	{
+        		counter_brightness--;
+        	}
+    	}
+    	if((SW_0==0)&&(SW_1==1))
+    	{
+        	if(BT_2 == 1)
+        	{
+        		counter_contrast++;
+        	}
+        	else if(BT_3 == 1)
+        	{
+        		counter_contrast--;
+        	}
+    	}
+    	if(counter_brightness >= 128)
+    	{
+    		counter_brightness = 128;
+    	}
+    	else if(counter_brightness <= 0)
+    	{
+    		counter_brightness =0;
+    	}
+    	if(counter_contrast >= 128)
+    	{
+    		counter_contrast = 128;
+    	}
+    	else if(counter_contrast <= 0)
+    	{
+    		counter_contrast = 0;
+    	}
+
+    	if((SW_0==1)&&(SW_1==1))
+    	{
+        	if(BT_0 == 1)
+        	{
+        		counter_edge++;
+        	}
+        	else if(BT_1 == 1)
+        	{
+        		counter_edge--;
+        	}
+    	}
+    	if(counter_contrast >= 1048576)
+    	{
+    		counter_contrast = 128;
+    	}
+    	else if(counter_contrast <= 0)
+    	{
+    		counter_contrast = 0;
+    	}
+
+    	data_out = (counter_brightness <<1) | SW_0; // enable/disable for ps1: brightness ip
+    	Xil_Out32((XPAR_MY_CONTROLLER_AXIL_IP_0_S_AXI_BASEADDR+4),data_out);
+    	data_out = (counter_contrast <<1) | SW_1; // enable/disable for ps2: contrast ip
+    	Xil_Out32((XPAR_MY_CONTROLLER_AXIL_IP_0_S_AXI_BASEADDR+8),data_out);
+    	//data_out = ((1<<20)<<1) | (SW_0 & SW_1);
+    	for(int i = 0; i <= 8388608; i++)
+    	{
+    		data_out = (i <<1) | (SW_0 & SW_1);
+        	Xil_Out32((XPAR_MY_CONTROLLER_AXIL_IP_0_S_AXI_BASEADDR+12),data_out); // enable/disable for ps3: edge ip
+        	usleep(5);
+    	}
+    	usleep(50000);
+    }
+    cleanup_platform();
+    return 0;
+}

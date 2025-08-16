@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Bri_Con_Edge_App/src/app_edge_bright_Con&apos; to &apos;app_edge_bright_Con.c&apos;" description="Rename resource &apos;app_edge_bright_Con&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/app_edge_bright_Con" name="app_edge_bright_Con.c" stamp="1742405943169" updateReferences="true"/>
+</session>

@@ -1,0 +1,23 @@
+timestamp=[2025-03-19 23:04:56], mode=WORKBENCH_UI_INIT, duration=0:00:00.000, duration_ms=0, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2025-03-19 23:04:56], mode=WORKBENCH_START, duration=0:00:06.947, duration_ms=6947, data={}
+timestamp=[2025-03-19 23:04:58], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.563, duration_ms=1563, data={}
+timestamp=[2025-03-19 23:06:17], mode=PLATFORM_CREATION, duration=0:00:12.810, duration_ms=12810, data={platform_source=dsa, os=standalone, processor=ps7_cortexa9, platform=null}
+timestamp=[2025-03-19 23:06:44], mode=PLATFORM_GENERATION, duration=0:00:18.199, duration_ms=18199, data={name=Bri_Con_Edge}
+timestamp=[2025-03-19 23:08:00], mode=APP_CREATION, duration=0:00:06.133, duration_ms=6133, data={name=Bri_Con_Edge_App, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=Bri_Con_Edge, application_type=application}
+timestamp=[2025-03-19 23:08:20], mode=BUILD, duration=0:00:01.120, duration_ms=1120, data={name=Bri_Con_Edge_App, configuration=Debug, clean_build=false}
+timestamp=[2025-03-19 23:18:36], mode=BUILD, duration=0:00:00.175, duration_ms=175, data={name=Bri_Con_Edge_App, configuration=Debug, clean_build=true}
+timestamp=[2025-03-19 23:18:37], mode=BUILD, duration=0:00:00.865, duration_ms=865, data={name=Bri_Con_Edge_App, configuration=Debug, clean_build=false}
+timestamp=[2025-03-19 23:26:32], mode=BUILD, duration=0:00:00.737, duration_ms=737, data={name=Bri_Con_Edge_App, configuration=Debug, clean_build=false}
+timestamp=[2025-03-19 23:27:04], mode=BUILD, duration=0:00:00.229, duration_ms=229, data={name=Bri_Con_Edge_App, configuration=Debug, clean_build=false}
+timestamp=[2025-03-19 23:37:05], mode=BUILD, duration=0:00:00.682, duration_ms=682, data={name=Bri_Con_Edge_App, configuration=Debug, clean_build=false}
+timestamp=[2025-03-20 02:10:42], mode=WORKBENCH_START, duration=0:00:06.556, duration_ms=6556, data={}
+timestamp=[2025-03-20 02:10:42], mode=WORKBENCH_UI_INIT, duration=0:00:00.133, duration_ms=133, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Bri_Con_Edge,Bri_Con_Edge_App,Bri_Con_Edge_App_system,RemoteSystemsTempFiles}
+timestamp=[2025-03-20 02:10:44], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.214, duration_ms=1214, data={}
+timestamp=[2025-03-20 02:28:13], mode=BUILD, duration=0:00:00.841, duration_ms=841, data={name=Bri_Con_Edge_App, configuration=Debug, clean_build=false}
+timestamp=[2025-03-20 02:43:38], mode=WORKBENCH_START, duration=0:00:07.554, duration_ms=7554, data={}
+timestamp=[2025-03-20 02:43:38], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.301, duration_ms=1301, data={}
+timestamp=[2025-03-20 02:43:38], mode=WORKBENCH_UI_INIT, duration=0:00:00.202, duration_ms=202, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Bri_Con_Edge,Bri_Con_Edge_App,Bri_Con_Edge_App_system,RemoteSystemsTempFiles}
+timestamp=[2025-03-20 02:49:28], mode=BUILD, duration=0:00:00.797, duration_ms=797, data={name=Bri_Con_Edge_App, configuration=Debug, clean_build=false}
+timestamp=[2025-03-20 04:29:09], mode=WORKBENCH_START, duration=0:00:06.709, duration_ms=6709, data={}
+timestamp=[2025-03-20 04:29:10], mode=WORKBENCH_UI_INIT, duration=0:00:00.220, duration_ms=220, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Bri_Con_Edge,Bri_Con_Edge_App,Bri_Con_Edge_App_system,RemoteSystemsTempFiles}
+timestamp=[2025-03-20 04:29:11], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.489, duration_ms=1489, data={}
